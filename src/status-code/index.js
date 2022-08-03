@@ -1,5 +1,5 @@
 // STATUS CODE
-let success         =   {
+const success         =   {
   statusCode  : 200,
   statusData  : "success",
   message     : "Success"

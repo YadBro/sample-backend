@@ -3,7 +3,7 @@ const { success } = require('../status-code');
 
 exports.getUsers = async (req, res) => {
   try {
-
+    console.log(req.user);
     const users = await user.findAll();
     res.status(success.statusCode).send({
       status: success.statusData,
